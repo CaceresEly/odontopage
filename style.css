@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 2px solid #15607b
+}
+
+.menu{
+    width: 80%;
+    text-align: right;
+}
+
+.center .logo a{
+    color: #15607b;
+}
+
+.logo{
+    font-size: 20px;
+}
+
+.logo h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.menu a{
+    color: #15607b;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: 0.4s;
+}
+
+.menu a:hover{
+    color: #007bff;
+}
+
+section.main{
+    padding: 100px 0;
+    background-image: url(img/pexels-pixabay-52527.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.5;
+}
+
+
+.main_cta h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.main_cta p{
+    color: #15607b;
+    font-weight: 800
+}
+
+.main_cta{
+    margin: 100px 0;
+    text-align: center;
+}
+
+
+.main-two{
+    min-height: 60px;
+    background-color: white;
+}
+
+.main-tittle{
+    text-align: center;
+    padding: 15px;
+}
+
+.logo-trat{
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+}
+
+.container-trat{
+    display: flex;
+    justify-content: space-around;
+}
+
+.trat-pagina-princ{
+    background-color: white;
+    padding: 50px 10px;
+    border-radius: 11px;
+}
+
+.main-tree{
+    min-height: 400px;
+    background-color: rgb(233, 227, 227);
+    margin: 70px 0;
+}
+
+.main-four{
+    background-color: rgb(233, 227, 227);
+    min-height: 400px;
+}
+
+
+.main-logo{
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+}
+
+.main-text{
+    display: flex;
+    gap: 40px;
+    padding: 70px ;
+}
+
+
+
+
+.main-text img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 450px;
+    border-radius: 25px;
+}
+
+.main-five{
+    background-color: white;
+    min-height: 65px;
+}
+
+.main-six{
+    min-height: 500px;
+    background-color: rgb(233, 227, 227);
+}
+
+.tittle-depoimentos{
+    text-align: center;
+    padding: 15px;
+}
+
+.main-six-body{
+    display: flex;
+}
+
+.depoimentos{
+    background-color: white;
+    width: 24%;
+    margin-right: 1%;
+    padding: 50px 10px;
+    border-radius: 11px;
+}
+
+.main-seven{
+    background-color: white;
+    min-height: 65px;
+}
+
+
+.footer-center{
+    display: flex;
+    min-height: 250px;
+    background-color: rgb(233, 227, 227);
+}
+
+.footer-center .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box h2{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .content{
+    margin: 20px 0 0 0;
+}
+
+.box .content .social a{
+    margin: 0 2px;
+}
+
+.left .content{
+    font-size: 20px;
+    background: rgb(233, 227, 227);
+}
+
+.content .social a i{
+    width: 70px;
+}
+
+body{
+    height: 100%;
+    background: rgb(233, 227, 227);
+}
+
+.trat-1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+}
+
+
+.container-pai-trat{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-pai-img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.img-txt img{
+    border-radius: 11px;
+    width: 300px;
+}
+
+.img-txt .terapia{
+    width: 400px;
+}
+
+.container-texto-terapia .txt-terapia{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+}
