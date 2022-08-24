@@ -8,16 +8,18 @@
 
 .center{
     max-width: 1100px;
+    min-width: 667px;
     margin: 0 auto;
     padding: 0 2%;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 header{
     background-color: white;
     padding: 20px 0;
-    border-bottom: 2px solid #15607b
+    border-bottom: 2px solid #7e6347;
 }
 
 .menu{
@@ -51,13 +53,12 @@ header{
 }
 
 section.main{
-    padding: 100px 0;
-    background-image: url(img/pexels-pixabay-52527.jpg);
+    padding: 150px 0;
+    background-image: url(img/secundaria\ 2.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    opacity: 0.5;
+    background-attachment: scroll;
 }
 
 
@@ -107,12 +108,12 @@ section.main{
 
 .main-tree{
     min-height: 400px;
-    background-color: rgb(233, 227, 227);
+    background-color: #f1E9EA;
     margin: 70px 0;
 }
 
 .main-four{
-    background-color: rgb(233, 227, 227);
+    background-color: #f1E9EA;
     min-height: 400px;
 }
 
@@ -129,15 +130,18 @@ section.main{
     padding: 70px ;
 }
 
-
-
+.main-text p{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
 
 .main-text img{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    width: 450px;
+    width: 600px;
     border-radius: 25px;
 }
 
@@ -148,7 +152,7 @@ section.main{
 
 .main-six{
     min-height: 500px;
-    background-color: rgb(233, 227, 227);
+    background-color: #f1E9EA;
 }
 
 .tittle-depoimentos{
@@ -177,7 +181,7 @@ section.main{
 .footer-center{
     display: flex;
     min-height: 250px;
-    background-color: rgb(233, 227, 227);
+    background-color: #f1E9EA;
 }
 
 .footer-center .box{
@@ -201,7 +205,7 @@ section.main{
 
 .left .content{
     font-size: 20px;
-    background: rgb(233, 227, 227);
+    background: #f1E9EA;
 }
 
 .content .social a i{
@@ -210,7 +214,7 @@ section.main{
 
 body{
     height: 100%;
-    background: rgb(233, 227, 227);
+    background: #f1E9EA;
 }
 
 .trat-1{
@@ -248,4 +252,8 @@ body{
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 5%;
+}
+
+.center .logo a img{
+    width: 90px;
 }
